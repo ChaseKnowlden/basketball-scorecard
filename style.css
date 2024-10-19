@@ -1,0 +1,63 @@
+:root {
+    --SCORE-COLOR: #f05;
+    --SCORE-BG-COLOR: #000;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto";
+    background-color: #1B244A;
+}
+
+h3 {
+    color: whitesmoke;
+    font-size: 36px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#score-display-home {
+    background-color: var(--SCORE-BG-COLOR);
+    width: 200px;
+    height: 125px;
+    color: var(--SCORE-COLOR);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 72px;
+    border-radius: 10px;
+}
+
+#score-display-guest {
+    background-color: var(--SCORE-BG-COLOR);
+    width: 200px;
+    height: 125px;
+    color: var(--SCORE-COLOR);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 72px;
+    border-radius: 10px;
+}
+
+.button-container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 15px;
+    color: whitesmoke;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    font-size: 18px;
+    font-family: "Roboto";
+}

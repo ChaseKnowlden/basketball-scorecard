@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scorecard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <div id="score-display-home">0</div>
+            <div class="button-container">
+                <button onclick="incrementOneHome()">+1</button>
+                <button onclick="incrementTwoHome()">+2</button>
+                <button onclick="incrementThreeHome()">+3</button>
+            </div>
+        </div>
+        <div>
+            <h3>GUEST</h3>
+            <div id="score-display-guest">0</div>
+            <div class="button-container">
+                <button onclick="incrementOneGuest()">+1</button>
+                <button onclick="incrementTwoGuest()">+2</button>
+                <button onclick="incrementThreeGuest()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
